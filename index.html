@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM AND TABLE USING JavaScript</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="myForm">
+        <h1 class="display-4">Enter your Data</h1>
+        <table>
+            <tr>
+
+                <td><input type="text" id="First_name" placeholder="Enter the First Name" required></td>
+                <td><input type="text" id="Last_Name" placeholder="Enter the Last Name" required></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="Address" placeholder="Address" required></td>
+            </tr>
+            <tr>
+                <td><input type="number" id="PINcode" placeholder="PIN Code" required></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="Gender" placeholder="Gender" required></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="Food" placeholder="Food" required></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="State" placeholder="State" required></td>
+            </tr>
+            </br>
+            </br>
+            <td><input type="button" class="btn btn-primary" id="add" value="Add"></td>
+            </tr>
+        </table>
+    </div>
+    </br>
+    </br>
+    <div class="container-fluid" id="my_table">
+        <table id="table_of_information" class="table table-success table-striped">
+            <tr>
+                <td class="table-danger">DEL</td>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>Address</td>
+                <td>PIN Code</td>
+                <td>Gender</td>
+                <td>Food</td>
+                <td>State</td>
+
+            </tr>
+        </table>
+    </div>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
